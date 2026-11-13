@@ -1,0 +1,120 @@
+﻿MONSTER F3 SOURCE REVIEW BUNDLE
+CreatedLocal: 2026-11-13 19:49:17 +01:00
+ProjectRoot: C:\Users\home\MONSTER-AI-COMMAND-CENTER\frontend
+VoiceRoot: C:\OmniChat
+GitBranch: security/patch-dependencies
+ReadOnlyProjectCollection: TRUE
+ProjectFilesModified: FALSE
+RegistryChanged: FALSE
+DependenciesInstalled: FALSE
+SecretsAndEnvironmentFilesIncluded: FALSE
+
+INCLUDED FILES AND SHA256:
+54C7477C89E78D89D77CC733197989B164182E76029F6C9101302314975B26DD  package.json
+B1055F5CA1FC6ED7566B848900E3CA5C789E596A8F8BD826433CB4BF57D512BE  package-lock.json
+1F12ACB5C6253675358A6FBDB79FBD146ED77B814B09647B1CAE618033C6A970  tsconfig.json
+014585AFC246FEC7185568849A014DDC6C64DCE7445F95239AB013735E56B73F  next.config.mjs
+C1D15A1DA611B465A7EF1E7090B8D469314BC66052E9A6814320FBDB80FDCB0D  lib\ai\models.ts
+F75BC15EC5D821DE3373824A1E5FB985BEADC53C48BE99FAC542AE07C6BB42D3  lib\ai\omniroute.ts
+3ECD5935EECF6877F74DE8184EBEF8A9582ED37D1ADB7D5F56CF436DF0099B83  lib\ai\tool-executor.ts
+E1BB7534DCFCE6254475ED99D089C856C2BDE2EDEB847EBB86FFCF87AD8545A8  lib\ai\tool-policy.ts
+4C50B8E33DB2AB8CA837E7133374CB753C9AF054469049E66B0E28B3F4D5C364  lib\agents\registry.ts
+241394FE1F4BE6484F6E1C6435038EF6EC190268150D57BEAA5D43BD2C538905  lib\agents\runtime.ts
+249A7381E338F8F6B7D068CB65FE2F358A407497DC8D6A38C57629BDF98C56D5  lib\tasks\app_api_tasks_voice_route.ts
+FFC04C108B96630AEA614EFCFAB638A029EA4649B15E0FDBF8BFEAE7BD9702D2  lib\tasks\lease-recovery.ts
+CC4830A78D0AFCCAD605377DDCF2A4C2D852CEA0BB4C747A71626FC85D829D08  lib\tasks\orchestrator.ts
+F17E658FC0ED67DED41284CB565136C5F3ECFF05FA202BA16C26CC18C5FA9E6B  lib\tasks\queue.ts
+21530243030846AC693DCE832CA2DCA7D73340EE9BFB573DC7C2D9639FDB3460  lib\tasks\retry-policy.ts
+2DF51DC4D03F674004EB7D7E3AF7EB66D79068F3E5414A7078727DE242BDB115  lib\security\auth.ts
+22BCD86CB44DB273A867E1DBE7E8B464EA557076C5E7941D91A17285E0E5FA4A  lib\security\guards.ts
+EBEE1FE41F04E06C85752A60A1B6CEBA608B4F23BDF5C5753C1E26167799F696  lib\security\rate-limit.ts
+F06622CE5076EFB83CD5703B5D9BDAB9610C32A14D24856795F3EBF29180D418  lib\db\postgres.ts
+FF23D5530518A5625A09983AD8224ABC27C8A594B6A63D304F7C9FA1BD4FFA6A  app\api\tasks\route.ts
+5F2CAA91E80B9C298A28CA982515ACD34FBD8FAF25F2A9444C9D5FE6FD098B73  app\api\tasks\voice\route.ts
+A4D1DFDB160990BFF5740ACBD03D9FC4264D49B39F36808968F46AEBC5A388D4  app\api\tasks\[taskId]\route.ts
+1FC6994219DF3F0A12CFF1F15455F0C5609FA8BCE540863F3EAADDFA98CC3F1F  app\api\agents\route.ts
+BEC8456788AA852771C756B88D122C2A1C10EA67F3D05FC17F64D7EDC2E9CF9B  app\api\agents\run\route.ts
+C52E971A3ECE213DBD3F5313F29B4B53C8F16A8951061BCBC11F8D1AEB13905B  app\api\orchestrator\route.ts
+388F0BF9BC1DE77D13B96DE12F579EF20F545FF22B0994D4700B8FBEFC523986  app\api\orchestrator\[planId]\route.ts
+3D04FB1CD4302B660D26DE0DE03F7BDFDED0F26A75688DE1B619E21AB46D1C1C  scripts\task-worker.ts
+78514B47CF885D33DD939FC3ED5F304DF1E7A8C7916550AFE2714E14D5EA9D7D  scripts\orchestrator-plan.ts
+46EF7AB71C6749D152FFD8BC72207DA1216E8E6FA36284C753E9544A71CE1928  scripts\orchestrator-status.ts
+F49A30272B405B018F28DA82B37CC4DDD423297A021F0C59D55F2BFA1C010FD1  scripts\test-researcher-web-search.ts
+E1F7DE2897DB02437215FA752A5692A9E58356DC88BC553F648ADAE5945DDCC5  scripts\test-agent-governance.ts
+4BC2E4829A0BCE11D237EB49702759BCC48C8FBF0C52698D99F73EC12A14E149  scripts\test-retry-policy.ts
+CB60C1D0574318D2466BB3D4C5DFC62645648E4B8BABB2DC10C57A643F538802  scripts\test-worker-lease-recovery-guard.ts
+C4AFBD05B4059E6F8FA65F58C8C816D2E57974BADE1DAF1D8BF285E0609ED815  scripts\test-worker-retry-guard.ts
+28D4B9431E27095AA7C8C99136CC97D49319A34EAF12BD78E9C918D35340138B  scripts\test-workspace-replay.ts
+FE40289A74AB244EDA0DE88C0670EE57B0226A1EEE657C84CEBFDAFA18093AB0  scripts\test-workspace-replay-post-effect-crash.ts
+253CA28A7BA972E45C2DC1A08432AD5701322CE3ED39C129E4B9BA9B8E79F0FB  components\TaskConsole.tsx
+D49E87DB1EBA721A9C63376101AB1ACA809489B1AA3395FD91DC983DB9A9BB02  components\ApexWorld.tsx
+7D3064A227930D4B1ADE01D64A7A9788D1A7FB6DAB231C23A9574A199FD0DEF2  components\useApexLiveVoice.ts
+5258703B2842B26A461377B7B48D07F973A54DCCB9191B5E5971B39FC1461B95  OMNICHAT\monster_live_voice_server.py
+
+MISSING OPTIONAL/CORE PATHS:
+C:\Users\home\MONSTER-AI-COMMAND-CENTER\frontend\next.config.js
+C:\Users\home\MONSTER-AI-COMMAND-CENTER\frontend\next.config.ts
+
+GIT STATUS --SHORT:
+MM .gitignore
+AM app/api/agents/route.ts
+AM app/api/agents/run/route.ts
+AM app/api/ai/chat/route.ts
+M  app/api/weather/route.ts
+ M app/page.tsx
+ M components/ApexHeroOrb.tsx
+M  components/ApexOverviewPanel.tsx
+ M components/ApexWorld.tsx
+AM compose.yaml
+A  db/init/001_initial_schema.sql
+A  lib/agents/registry.ts
+AM lib/agents/runtime.ts
+AM lib/ai/models.ts
+AM lib/ai/omniroute.ts
+AM lib/ai/tool-executor.ts
+A  lib/db/postgres.ts
+AM lib/memory/store.ts
+AM lib/tasks/orchestrator.ts
+AM lib/tasks/queue.ts
+AM lib/workspace/tools.ts
+M  package-lock.json
+M  package.json
+A  scripts/monster-memory-postgres-smoke.cjs
+AM scripts/orchestrator-plan.ts
+A  scripts/orchestrator-status.ts
+A  scripts/task-add.ts
+A  scripts/task-cancel.ts
+A  scripts/task-status.ts
+AM scripts/task-worker.ts
+?? app/api/auth/
+?? app/api/orchestrator/
+?? app/api/tasks/
+?? app/login/
+?? components/LoginForm.tsx
+?? components/LogoutButton.tsx
+?? components/TaskConsole.tsx
+?? components/useApexLiveVoice.ts
+?? db/migrations/
+?? lib/ai/omniroute.ts.pre-quota-fix-20261103-174458.bak
+?? lib/ai/tool-executor.ts.backup-tool-executor-v2-20261106-201636-b69c96102fee4bb6b3ef1c921f5ee2fe
+?? lib/ai/tool-executor.ts.backup-tool-executor-v2-20261106-201834-529611fa24bd4989bc3b3dd323f07c95
+?? lib/ai/tool-executor.ts.backup-tool-executor-v2.2-20261106-202412-800305d0dbe94c0b8eee28a5e26119fe
+?? lib/ai/tool-policy.ts
+?? lib/security/
+?? lib/tasks/app_api_tasks_voice_route.ts
+?? lib/tasks/lease-recovery.ts
+?? lib/tasks/orchestrator.ts.pre-quota-fix-20261103-174458.bak
+?? lib/tasks/retry-policy.ts
+?? scripts/monster-auth-smoke.ts
+?? scripts/setup-monster-auth.ts
+?? scripts/setup-monster-db.ps1
+?? scripts/task-worker.ts.before-fencing-20261101-213859.bak
+?? scripts/task-worker.ts.pre-quota-fix-20261103-174458.bak
+?? scripts/test-agent-governance.ts
+?? scripts/test-cross-tool-side-effect-identity.ts
+?? scripts/test-researcher-web-search.ts
+?? scripts/test-retry-policy.ts
+?? scripts/test-worker-lease-recovery-guard.ts
+?? scripts/test-worker-retry-guard.ts
+?? scripts/test-workspace-replay-post-effect-crash.ts
+?? scripts/test-workspace-replay.ts
